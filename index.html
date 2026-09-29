@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Home Service Co., Ltd. | Official Corporate & Developer Portal</title>
+  <meta name="description" content="Official website and developer portal of Smart Home Service Co., Ltd. (บริษัท สมาร์ท โฮม เซอร์วิส จำกัด) - Smart IoT solutions, mobile automation apps, and developer verification info.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Sarabun:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'Sarabun', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#eff6ff',
+              100: '#dbeafe',
+              500: '#3b82f6',
+              600: '#2563eb',
+              700: '#1d4ed8',
+              800: '#1e40af',
+              900: '#1e3a8a',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <!-- Schema.org Organization structured data for Google Crawlers -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Smart Home Service Co., Ltd.",
+    "alternateName": "บริษัท สมาร์ท โฮม เซอร์วิส จำกัด",
+    "url": "https://www.yourdomain.com",
+    "logo": "https://www.yourdomain.com/logo.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+66-2-000-0000",
+      "contactType": "customer service",
+      "email": "support@yourdomain.com",
+      "availableLanguage": ["Thai", "English"]
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "123 Smart Building, Floor 4, Sukhumvit Road",
+      "addressLocality": "Khlong Toei",
+      "addressRegion": "Bangkok",
+      "postalCode": "10110",
+      "addressCountry": "TH"
+    }
+  }
+  </script>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased min-h-screen flex flex-col selection:bg-brand-500 selection:text-white">
+
+  <!-- Navigation -->
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-slate-950/80 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3 group">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-600 to-cyan-400 flex items-center justify-center shadow-lg shadow-brand-500/20 group-hover:scale-105 transition-transform">
+          <svg class="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/>
+          </svg>
+        </div>
+        <div>
+          <span class="text-lg font-bold tracking-tight text-white block leading-tight">Smart Home Service</span>
+          <span class="text-xs text-slate-400 block">Co., Ltd. &bull; บจก. สมาร์ท โฮม เซอร์วิส</span>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+        <a href="#about" class="hover:text-white transition-colors">About Us</a>
+        <a href="#verification" class="hover:text-white transition-colors">Company Identity</a>
+        <a href="#apps" class="hover:text-white transition-colors">Applications</a>
+        <a href="support.html" class="hover:text-white transition-colors">Support</a>
+        <a href="privacy-policy.html" class="hover:text-white transition-colors">Privacy Policy</a>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <a href="#contact" class="hidden sm:inline-flex items-center justify-center px-4 py-2 text-sm font-semibold rounded-lg bg-brand-600 hover:bg-brand-500 text-white transition-colors shadow-sm">
+          Contact Us
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main class="flex-grow">
+    <section class="relative overflow-hidden pt-16 pb-20 lg:pt-24 lg:pb-32 border-b border-slate-900">
+      <!-- Glow Gradients -->
+      <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[350px] bg-brand-600/15 blur-[120px] rounded-full pointer-events-none"></div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+        <div class="max-w-3xl">
+          <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-900 border border-slate-800 text-xs font-semibold text-brand-400 mb-6">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            Verified Google Play Developer & IoT Systems Provider
+          </div>
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.15]">
+            Smart Home Service <span class="bg-gradient-to-r from-brand-400 via-cyan-300 to-white bg-clip-text text-transparent">Co., Ltd.</span>
+          </h1>
+          <p class="mt-3 text-lg text-brand-300 font-medium">
+            บริษัท สมาร์ท โฮม เซอร์วิส จำกัด
+          </p>
+          <p class="mt-6 text-lg text-slate-300 leading-relaxed">
+            Developer of next-generation smart home automation platforms, IoT hardware integration services, and cloud-connected mobile applications for Android and cross-platform ecosystems.
+          </p>
+
+          <div class="mt-8 flex flex-wrap gap-4">
+            <a href="#verification" class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-brand-600 hover:bg-brand-500 text-white font-semibold shadow-lg shadow-brand-600/25 transition-all">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+              </svg>
+              Verified Organization Profile
+            </a>
+            <a href="privacy-policy.html" class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-800 font-semibold transition-all">
+              Privacy Policy
+            </a>
+            <a href="support.html" class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-800 font-semibold transition-all">
+              App Support & Deletion
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Google Play Verification Info Card (Crucial for Reviewers) -->
+    <section id="verification" class="py-16 bg-slate-900/50 border-b border-slate-900">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl mb-10">
+          <h2 class="text-xs uppercase tracking-wider font-bold text-brand-400">Compliance & Identity</h2>
+          <p class="text-2xl sm:text-3xl font-bold text-white mt-1">Official Legal Entity Verification</p>
+          <p class="text-slate-400 text-sm mt-2">
+            Information provided for Google Play Console organization verification, Dun &amp; Bradstreet (D-U-N-S) matching, and regulatory compliance.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Item 1: Legal Name -->
+          <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-6">
+            <div class="text-xs font-semibold text-slate-400 uppercase tracking-wide">Legal Organization Name</div>
+            <div class="mt-2 text-lg font-bold text-white">Smart Home Service Co., Ltd.</div>
+            <div class="text-sm text-slate-300 mt-1">บริษัท สมาร์ท โฮม เซอร์วิส จำกัด</div>
+            <div class="mt-4 pt-3 border-t border-slate-800 text-xs text-slate-400 flex items-center gap-1.5">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span> Matches Registered Legal Entity
+            </div>
+          </div>
+
+          <!-- Item 2: Business Registration / Tax ID -->
+          <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-6">
+            <div class="text-xs font-semibold text-slate-400 uppercase tracking-wide">Tax ID / DBD Registration No.</div>
+            <div class="mt-2 text-lg font-mono font-bold text-brand-400">[01055XXXXXXXX]</div>
+            <div class="text-sm text-slate-400 mt-1">Department of Business Development (DBD, Thailand)</div>
+            <div class="mt-4 pt-3 border-t border-slate-800 text-xs text-slate-400 flex items-center gap-1.5">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span> Registered Juristic Person
+            </div>
+          </div>
+
+          <!-- Item 3: D-U-N-S Number -->
+          <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-6">
+            <div class="text-xs font-semibold text-slate-400 uppercase tracking-wide">D-U-N-S&reg; Number</div>
+            <div class="mt-2 text-lg font-mono font-bold text-brand-400">[XXXXXXXXX]</div>
+            <div class="text-sm text-slate-400 mt-1">Dun &amp; Bradstreet Verified Entity</div>
+            <div class="mt-4 pt-3 border-t border-slate-800 text-xs text-slate-400 flex items-center gap-1.5">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span> Google Play Console Verified
+            </div>
+          </div>
+
+          <!-- Item 4: Registered Physical Address -->
+          <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 md:col-span-2">
+            <div class="text-xs font-semibold text-slate-400 uppercase tracking-wide">Registered Physical Office Address</div>
+            <div class="mt-2 text-sm text-slate-200 leading-relaxed">
+              <strong>English:</strong> [123 Smart Building, Floor 4, Sukhumvit Road, Khlong Toei, Bangkok 10110, Thailand]<br>
+              <strong class="mt-1 inline-block">ไทย:</strong> [123 อาคารสมาร์ท ชั้น 4 ถนนสุขุมวิท แขวงคลองเตย เขตคลองเตย กรุงเทพมหานคร 10110]
+            </div>
+            <div class="mt-4 pt-3 border-t border-slate-800 text-xs text-slate-400 flex items-center gap-1.5">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span> Operational Head Office
+            </div>
+          </div>
+
+          <!-- Item 5: Contact Points -->
+          <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-6">
+            <div class="text-xs font-semibold text-slate-400 uppercase tracking-wide">Official Contact Channels</div>
+            <div class="mt-2 space-y-1.5 text-sm">
+              <div class="text-slate-300">
+                <span class="text-slate-400 font-medium">Domain Email:</span><br>
+                <a href="mailto:contact@yourdomain.com" class="text-brand-400 hover:underline font-mono">contact@yourdomain.com</a>
+              </div>
+              <div class="text-slate-300">
+                <span class="text-slate-400 font-medium">Developer Support:</span><br>
+                <a href="mailto:support@yourdomain.com" class="text-brand-400 hover:underline font-mono">support@yourdomain.com</a>
+              </div>
+              <div class="text-slate-300">
+                <span class="text-slate-400 font-medium">Phone:</span><br>
+                <span class="text-slate-200 font-mono">+66 2 XXX XXXX</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-20 border-b border-slate-900">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <h2 class="text-xs uppercase tracking-wider font-bold text-brand-400">About Our Company</h2>
+            <h3 class="text-3xl font-extrabold text-white mt-1">Smart Automation &amp; Connected Living</h3>
+            <p class="mt-4 text-slate-300 leading-relaxed">
+              <strong>Smart Home Service Co., Ltd.</strong> specializes in designing, engineering, and operating software and hardware ecosystems for residential and commercial automation. We develop mobile applications published on the Google Play Store that allow users to securely control smart switches, lighting, environmental sensors, cameras, and IoT gateways from anywhere.
+            </p>
+            <p class="mt-4 text-slate-400 leading-relaxed text-sm">
+              Our mobile engineering team follows Google Play Developer Quality and Security Guidelines, utilizing state-of-the-art encryption (TLS 1.3), end-to-end device provisioning, minimal permission scopes, and strict user privacy standards adhering to Thailand's PDPA and international data protection laws.
+            </p>
+
+            <div class="mt-6 grid grid-cols-2 gap-4">
+              <div class="p-4 rounded-xl bg-slate-900 border border-slate-800">
+                <div class="text-2xl font-black text-brand-400">100%</div>
+                <div class="text-xs text-slate-400 mt-1">Privacy &amp; Data Safety Compliance</div>
+              </div>
+              <div class="p-4 rounded-xl bg-slate-900 border border-slate-800">
+                <div class="text-2xl font-black text-brand-400">24/7</div>
+                <div class="text-xs text-slate-400 mt-1">Cloud Reliability &amp; Device Connectivity</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-gradient-to-br from-slate-900 to-slate-950 border border-slate-800 rounded-3xl p-8 relative shadow-2xl">
+            <h4 class="text-lg font-bold text-white mb-4">Core Technology Focus</h4>
+            <ul class="space-y-4 text-sm text-slate-300">
+              <li class="flex items-start gap-3">
+                <div class="w-6 h-6 rounded-lg bg-brand-500/20 text-brand-400 flex items-center justify-center shrink-0 mt-0.5">&check;</div>
+                <div>
+                  <strong class="text-white block">Smart Home Mobile Applications</strong>
+                  Intuitive Android control apps supporting real-time WebSocket and MQTT protocols for zero-latency device actuation.
+                </div>
+              </li>
+              <li class="flex items-start gap-3">
+                <div class="w-6 h-6 rounded-lg bg-brand-500/20 text-brand-400 flex items-center justify-center shrink-0 mt-0.5">&check;</div>
+                <div>
+                  <strong class="text-white block">Secure BLE &amp; Wi-Fi Provisioning</strong>
+                  Streamlined, permission-conscious Wi-Fi &amp; Bluetooth Low Energy onboarding for smart switches, sockets, and sensors.
+                </div>
+              </li>
+              <li class="flex items-start gap-3">
+                <div class="w-6 h-6 rounded-lg bg-brand-500/20 text-brand-400 flex items-center justify-center shrink-0 mt-0.5">&check;</div>
+                <div>
+                  <strong class="text-white block">Cloud Security &amp; Data Protection</strong>
+                  Robust authentication, OAuth 2.0, Firebase Cloud Messaging, and immediate account deletion workflows.
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mobile Applications Section -->
+    <section id="apps" class="py-20 border-b border-slate-900 bg-slate-900/30">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+          <h2 class="text-xs uppercase tracking-wider font-bold text-brand-400">Google Play Portfolio</h2>
+          <p class="text-3xl font-extrabold text-white mt-1">Our Mobile Applications</p>
+          <p class="text-slate-400 text-sm mt-2">
+            Published and maintained by Smart Home Service Co., Ltd. on the Google Play Store.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- App Card 1 -->
+          <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between hover:border-slate-700 transition-colors">
+            <div>
+              <div class="w-14 h-14 rounded-2xl bg-gradient-to-tr from-brand-600 to-cyan-500 flex items-center justify-center text-white mb-5 shadow-lg shadow-brand-500/10">
+                <svg class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+                </svg>
+              </div>
+              <h3 class="text-xl font-bold text-white">Smart Home Connect</h3>
+              <p class="text-xs text-brand-400 font-mono mt-1">com.smarthome.service.connect</p>
+              <p class="text-slate-300 text-sm mt-3 leading-relaxed">
+                Centralized smart home control suite for lighting, power outlets, schedules, and smart scene triggers with instant local and remote sync.
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-800 flex items-center justify-between text-xs text-slate-400">
+              <span>Status: Active &bull; Android</span>
+              <a href="privacy-policy.html" class="text-brand-400 hover:underline">Privacy Policy &rarr;</a>
+            </div>
+          </div>
+
+          <!-- App Card 2 -->
+          <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between hover:border-slate-700 transition-colors">
+            <div>
+              <div class="w-14 h-14 rounded-2xl bg-gradient-to-tr from-cyan-600 to-emerald-500 flex items-center justify-center text-white mb-5 shadow-lg shadow-cyan-500/10">
+                <svg class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                </svg>
+              </div>
+              <h3 class="text-xl font-bold text-white">Smart Guard &amp; Security Hub</h3>
+              <p class="text-xs text-brand-400 font-mono mt-1">com.smarthome.service.guard</p>
+              <p class="text-slate-300 text-sm mt-3 leading-relaxed">
+                Home security monitoring and instant push alert application integrating door/window sensors, motion detectors, and camera activity triggers.
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-800 flex items-center justify-between text-xs text-slate-400">
+              <span>Status: Active &bull; Android</span>
+              <a href="privacy-policy.html" class="text-brand-400 hover:underline">Privacy Policy &rarr;</a>
+            </div>
+          </div>
+
+          <!-- App Card 3: Custom / General Solution -->
+          <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between hover:border-slate-700 transition-colors">
+            <div>
+              <div class="w-14 h-14 rounded-2xl bg-gradient-to-tr from-indigo-600 to-purple-500 flex items-center justify-center text-white mb-5 shadow-lg shadow-indigo-500/10">
+                <svg class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+                </svg>
+              </div>
+              <h3 class="text-xl font-bold text-white">IoT Gateway Provisioner</h3>
+              <p class="text-xs text-brand-400 font-mono mt-1">com.smarthome.service.gateway</p>
+              <p class="text-slate-300 text-sm mt-3 leading-relaxed">
+                Setup and provisioning utility for hardware installers and users to pair Zigbee/Matter gateways with household Wi-Fi securely.
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-800 flex items-center justify-between text-xs text-slate-400">
+              <span>Status: Active &bull; Android</span>
+              <a href="privacy-policy.html" class="text-brand-400 hover:underline">Privacy Policy &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Google Play Compliance Hub & Direct Links -->
+    <section class="py-16 border-b border-slate-900">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-gradient-to-r from-slate-900 via-slate-800/80 to-slate-900 border border-slate-800 rounded-3xl p-8 lg:p-12">
+          <div class="max-w-2xl">
+            <h2 class="text-2xl font-bold text-white">Google Play Policy &amp; Data Safety Compliance</h2>
+            <p class="text-slate-300 text-sm mt-3 leading-relaxed">
+              We uphold Google Play developer policies regarding Data Safety, App Permissions, and Account Deletion. Users have the guaranteed right to review our privacy terms or request permanent account deletion.
+            </p>
+          </div>
+
+          <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            <a href="privacy-policy.html" class="p-4 rounded-xl bg-slate-950/60 hover:bg-slate-950 border border-slate-800 hover:border-slate-700 transition-all block">
+              <div class="text-brand-400 font-bold text-sm">Privacy Policy</div>
+              <div class="text-xs text-slate-400 mt-1">Mandatory Google Play privacy disclosures &amp; data handling.</div>
+            </a>
+            <a href="terms-of-service.html" class="p-4 rounded-xl bg-slate-950/60 hover:bg-slate-950 border border-slate-800 hover:border-slate-700 transition-all block">
+              <div class="text-brand-400 font-bold text-sm">Terms of Service</div>
+              <div class="text-xs text-slate-400 mt-1">Usage agreements, liability limits, and governance.</div>
+            </a>
+            <a href="delete-account.html" class="p-4 rounded-xl bg-slate-950/60 hover:bg-slate-950 border border-slate-800 hover:border-slate-700 transition-all block">
+              <div class="text-brand-400 font-bold text-sm">Account Deletion URL</div>
+              <div class="text-xs text-slate-400 mt-1">Google Play required web form to delete account &amp; data.</div>
+            </a>
+            <a href="support.html" class="p-4 rounded-xl bg-slate-950/60 hover:bg-slate-950 border border-slate-800 hover:border-slate-700 transition-all block">
+              <div class="text-brand-400 font-bold text-sm">Developer Support</div>
+              <div class="text-xs text-slate-400 mt-1">User inquiries, bug reports &amp; technical helpdesk.</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Verification Section -->
+    <section id="contact" class="py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <div>
+            <h2 class="text-xs uppercase tracking-wider font-bold text-brand-400">Direct Inquiries</h2>
+            <h3 class="text-3xl font-extrabold text-white mt-1">Contact Smart Home Service Co., Ltd.</h3>
+            <p class="text-slate-400 text-sm mt-3">
+              Reach our corporate management, application development team, or support agents directly.
+            </p>
+
+            <div class="mt-8 space-y-6">
+              <div class="flex items-start gap-4">
+                <div class="w-10 h-10 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-brand-400 shrink-0">
+                  <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="text-sm font-semibold text-white">Corporate Head Office</h4>
+                  <p class="text-sm text-slate-300 mt-1">[123 Smart Building, Floor 4, Sukhumvit Road, Khlong Toei, Bangkok 10110, Thailand]</p>
+                  <p class="text-xs text-slate-400 mt-0.5">[123 อาคารสมาร์ท ชั้น 4 ถนนสุขุมวิท แขวงคลองเตย เขตคลองเตย กรุงเทพมหานคร 10110]</p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-4">
+                <div class="w-10 h-10 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-brand-400 shrink-0">
+                  <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="text-sm font-semibold text-white">Official Domain Emails</h4>
+                  <p class="text-sm text-slate-300 mt-1">General: <a href="mailto:contact@yourdomain.com" class="text-brand-400 hover:underline">contact@yourdomain.com</a></p>
+                  <p class="text-sm text-slate-300">Support: <a href="mailto:support@yourdomain.com" class="text-brand-400 hover:underline">support@yourdomain.com</a></p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-4">
+                <div class="w-10 h-10 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-brand-400 shrink-0">
+                  <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="text-sm font-semibold text-white">Telephone &amp; Business Hours</h4>
+                  <p class="text-sm text-slate-300 mt-1">+66 2 XXX XXXX / +66 8X XXX XXXX</p>
+                  <p class="text-xs text-slate-400 mt-0.5">Monday - Friday: 09:00 - 18:00 (GMT+7)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Message Form Mockup -->
+          <div class="bg-slate-900 border border-slate-800 rounded-3xl p-8">
+            <h4 class="text-lg font-bold text-white mb-2">Send an Inquiry</h4>
+            <p class="text-xs text-slate-400 mb-6">Inquiries regarding applications, partnerships, or business validation.</p>
+            <form action="mailto:support@yourdomain.com" method="POST" enctype="text/plain" class="space-y-4">
+              <div>
+                <label class="block text-xs font-medium text-slate-300 mb-1">Your Name</label>
+                <input type="text" required placeholder="John Doe" class="w-full px-4 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-white placeholder-slate-500 focus:outline-none focus:border-brand-500 text-sm">
+              </div>
+              <div>
+                <label class="block text-xs font-medium text-slate-300 mb-1">Your Email</label>
+                <input type="email" required placeholder="john@example.com" class="w-full px-4 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-white placeholder-slate-500 focus:outline-none focus:border-brand-500 text-sm">
+              </div>
+              <div>
+                <label class="block text-xs font-medium text-slate-300 mb-1">Message</label>
+                <textarea rows="4" required placeholder="Describe your inquiry..." class="w-full px-4 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-white placeholder-slate-500 focus:outline-none focus:border-brand-500 text-sm"></textarea>
+              </div>
+              <button type="submit" class="w-full py-3 rounded-xl bg-brand-600 hover:bg-brand-500 text-white font-semibold text-sm transition-colors shadow-md">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-900 bg-slate-950 py-12 text-sm text-slate-400">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+        <div>
+          <div class="font-bold text-white text-base">Smart Home Service Co., Ltd.</div>
+          <div class="text-xs text-slate-400 mt-1">บริษัท สมาร์ท โฮม เซอร์วิส จำกัด &bull; Registered in Thailand</div>
+          <div class="text-xs text-slate-400 mt-0.5">&copy; 2026 Smart Home Service Co., Ltd. All rights reserved.</div>
+        </div>
+
+        <div class="flex flex-wrap items-center gap-6 text-xs">
+          <a href="privacy-policy.html" class="hover:text-white transition-colors">Privacy Policy</a>
+          <a href="terms-of-service.html" class="hover:text-white transition-colors">Terms of Service</a>
+          <a href="delete-account.html" class="hover:text-white transition-colors">Delete Account &amp; Data</a>
+          <a href="support.html" class="hover:text-white transition-colors">Support</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

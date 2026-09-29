@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Account and Data Deletion | Smart Home Service Co., Ltd.</title>
+  <meta name="description" content="Request account and data deletion for applications developed by Smart Home Service Co., Ltd. Compliant with Google Play Account Deletion Policy.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Sarabun:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'Sarabun', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              500: '#3b82f6',
+              600: '#2563eb',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased min-h-screen flex flex-col selection:bg-brand-500 selection:text-white">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-slate-950/80 border-b border-slate-800">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-cyan-400 flex items-center justify-center text-white font-bold">
+          SH
+        </div>
+        <div>
+          <span class="text-base font-bold text-white block leading-tight">Smart Home Service Co., Ltd.</span>
+          <span class="text-xs text-slate-400">Account Management &amp; Privacy</span>
+        </div>
+      </a>
+      <div class="flex items-center gap-4 text-xs font-semibold">
+        <a href="index.html" class="text-slate-300 hover:text-white">Home</a>
+        <a href="privacy-policy.html" class="text-slate-300 hover:text-white">Privacy Policy</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Content -->
+  <main class="flex-grow py-12 lg:py-16">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6">
+      
+      <!-- Doc Header -->
+      <div class="border-b border-slate-800 pb-8 mb-8">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-rose-950/40 border border-rose-900/50 text-xs font-semibold text-rose-400 mb-4">
+          Google Play Account Deletion Requirement URL
+        </div>
+        <h1 class="text-3xl font-extrabold text-white tracking-tight">Account &amp; Data Deletion Request</h1>
+        <p class="text-sm text-slate-400 mt-2">
+          Under Google Play policy, users of Smart Home Service applications can request the permanent deletion of their account, device pairings, and associated telemetry.
+        </p>
+      </div>
+
+      <!-- How it works -->
+      <div class="space-y-6 text-sm text-slate-300 leading-relaxed mb-10">
+        <div class="bg-slate-900/70 border border-slate-800 rounded-2xl p-6">
+          <h2 class="text-base font-bold text-white mb-2">What Happens When You Delete Your Account?</h2>
+          <ul class="list-disc pl-5 space-y-2">
+            <li><strong>Personal Identity:</strong> Your registered email, name, encrypted passwords, and profile credentials are completely purged from active databases within 30 days.</li>
+            <li><strong>Hardware Disassociation:</strong> All paired smart switches, gateways, sensors, and cameras are unlinked from your cloud account.</li>
+            <li><strong>Automation Scenes &amp; Schedules:</strong> Any configured timers, automated scenes, and device logs are permanently erased.</li>
+            <li><strong>Data Retention Exceptions:</strong> Financial records or transaction invoices (if any) are retained only to the extent mandated by applicable tax and accounting laws in Thailand.</li>
+          </ul>
+        </div>
+
+        <!-- Deletion Methods -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="bg-slate-900/60 border border-slate-800 rounded-xl p-5">
+            <h3 class="font-bold text-white text-sm mb-1">Method 1: In-App Deletion</h3>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Open the app &rarr; <strong>Profile / Settings</strong> &rarr; <strong>Account Security</strong> &rarr; Select <strong>"Delete Account"</strong> &rarr; Confirm authorization code.
+            </p>
+          </div>
+          <div class="bg-slate-900/60 border border-slate-800 rounded-xl p-5">
+            <h3 class="font-bold text-white text-sm mb-1">Method 2: Web Submission Form</h3>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              If you have uninstalled the application, use the form below to request account termination directly.
+            </p>
+          </div>
+        </div>
+
+        <!-- Web Deletion Request Form -->
+        <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 sm:p-8">
+          <h3 class="text-base font-bold text-white mb-1">Submit Deletion Request</h3>
+          <p class="text-xs text-slate-400 mb-6">Our security team will send a verification link to your registered email to confirm ownership.</p>
+          
+          <form action="mailto:support@yourdomain.com?subject=Account%20and%20Data%20Deletion%20Request" method="POST" enctype="text/plain" class="space-y-4">
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 mb-1">Select Application</label>
+              <select class="w-full px-4 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-white focus:outline-none focus:border-brand-500 text-xs">
+                <option value="Smart Home Connect">Smart Home Connect (com.smarthome.service.connect)</option>
+                <option value="Smart Guard & Security Hub">Smart Guard &amp; Security Hub (com.smarthome.service.guard)</option>
+                <option value="IoT Gateway Provisioner">IoT Gateway Provisioner (com.smarthome.service.gateway)</option>
+                <option value="All Associated Services">All Associated Accounts &amp; Data</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 mb-1">Registered Account Email Address</label>
+              <input type="email" required placeholder="user@example.com" class="w-full px-4 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-white placeholder-slate-500 focus:outline-none focus:border-brand-500 text-xs">
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 mb-1">Reason for Deletion (Optional)</label>
+              <textarea rows="3" placeholder="Let us know why you are leaving or any additional requests..." class="w-full px-4 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-white placeholder-slate-500 focus:outline-none focus:border-brand-500 text-xs"></textarea>
+            </div>
+
+            <div class="flex items-start gap-2 pt-2">
+              <input type="checkbox" required id="confirm" class="mt-1 rounded bg-slate-950 border-slate-800 text-rose-600 focus:ring-0">
+              <label for="confirm" class="text-xs text-slate-400">
+                I understand that deleting my account is irreversible and all smart device settings will be wiped.
+              </label>
+            </div>
+
+            <button type="submit" class="w-full py-3 rounded-xl bg-rose-600 hover:bg-rose-500 text-white font-bold text-xs transition-colors shadow-md shadow-rose-900/20">
+              Submit Request for Account Deletion
+            </button>
+          </form>
+        </div>
+
+        <div class="text-xs text-slate-400 text-center">
+          Alternatively, email our privacy desk directly at <a href="mailto:support@yourdomain.com" class="text-brand-400 hover:underline">support@yourdomain.com</a> with subject "Account Deletion".
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-900 bg-slate-950 py-8 text-xs text-slate-400">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row justify-between items-center gap-4">
+      <div>&copy; 2026 Smart Home Service Co., Ltd. (บริษัท สมาร์ท โฮม เซอร์วิส จำกัด)</div>
+      <div class="flex gap-4">
+        <a href="index.html" class="hover:text-white">Home</a>
+        <a href="privacy-policy.html" class="hover:text-white">Privacy Policy</a>
+        <a href="terms-of-service.html" class="hover:text-white">Terms of Service</a>
+        <a href="support.html" class="hover:text-white">Support</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
